@@ -1,0 +1,29 @@
+.text_title{
+  margin-left: 316px;
+  margin-top: 80px;
+   h1{
+    color: var(--base-white, #FFF);
+    text-align: center;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Circular Std;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 72px; 
+    letter-spacing: -1.32px;
+    margin-bottom: 24px;
+   }
+   p{
+    padding-bottom: 40px;
+    color: var(--text-icon-secondary, #C8C7D8);
+    text-align: center;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Circular Std;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: -0.252px;
+     width: 808px;
+   }
+}

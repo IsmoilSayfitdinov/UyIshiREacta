@@ -1,0 +1,105 @@
+.filter{
+    margin-top: 80px;
+    padding-bottom: 24px;
+}
+
+
+.fil_block{
+    border-radius: 16px;
+    background: var(--background-secondary, #393953);
+    width: 808px;
+    height: 188px;
+    margin-left: 316px;
+    margin-top: 24px;
+    padding-top: 24px;
+    h3{
+        color: var(--text-icon-primary, #FFF);
+        font-family: Circular Std;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 32px;
+        letter-spacing: -0.456px;
+        margin-left: 24px;
+        padding-bottom: 8px;
+    } 
+    P{
+        margin-left: 24px;
+        padding-bottom: 8px;
+        color: var(--text-icon-primary, #FFF);
+        font-feature-settings: 'clig' off, 'liga' off;
+        font-family: Circular Std;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 450;
+        line-height: 24px;
+        letter-spacing: -0.176px;
+    }
+    span{
+        color: var(--text-icon-secondary, #C8C7D8);
+        font-family: Space Mono;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px;
+        
+    }
+}
+
+.end{
+    border-radius: 16px;
+    background: var(--gradient-brand, linear-gradient(322deg, #6966FF 0%, rgba(105, 102, 255, 0.36) 100%));
+    box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.10);
+    width: 1224px;
+    height: 256px;
+    margin-top: 160px;
+    margin-left: 108px;
+    margin-bottom: 80px;
+    padding-top: 40px;
+}
+
+.text{
+    p{
+        color: var(--text-icon-primary, #FFF);
+        text-align: center;
+        font-feature-settings: 'clig' off, 'liga' off;
+        font-family: Circular Std;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 450;
+        line-height: 32px;
+        letter-spacing: -0.34px;
+
+    }
+    h3{
+        color: var(--text-icon-primary, #FFF);
+        text-align: center;
+        font-feature-settings: 'clig' off, 'liga' off;
+        font-family: Circular Std;
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 48px;
+        letter-spacing: -0.88px;
+
+    }
+    button{
+        border-radius: 7.29px;
+        background: var(--base-white, #FFF);
+        width: 169px;
+        height: 48px;
+        border: none;
+        outline: none;
+        color: var(--accent-brand, #6966FF);
+        text-align: center;
+        font-feature-settings: 'clig' off, 'liga' off;
+        font-family: Circular Std;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 24px;
+        letter-spacing: -0.176px;
+        margin-left: 527px;
+        margin-top: 40px;
+    }
+}

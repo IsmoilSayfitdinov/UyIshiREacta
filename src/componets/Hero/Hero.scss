@@ -1,0 +1,106 @@
+.Text_Hero{
+    width: 1440px;
+    height: 698px;
+
+    .Text{
+        margin-top: 80px;
+        width: 808px;
+        margin-left: 316px;
+    }
+     h1{
+        color: var(--text-icon-primary, #FFF);
+        text-align: center;
+        font-feature-settings: 'clig' off, 'liga' off;
+        font-family: Circular Std;
+        font-size: 80px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 88px;
+        letter-spacing: -1.76px;
+        
+     }
+     .text_btn{
+        margin-left: 527px;
+        margin-top: 28px;
+     }
+}
+
+.btn_Hero1{
+    border-radius: 7.29px;
+    background: var(--background-secondary, #393953);
+    width: 180px;
+    padding: 12px 16px;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+    color: var(--text-icon-primary, #FFF);
+    text-align: center;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Circular Std;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    letter-spacing: -0.176px;
+
+}
+
+.btn_Hero2{
+    margin-left: 53.5px;
+    border-radius: 7.29px;
+    background: var(--accent-brand, #6966FF);
+    width: 180px;
+    padding: 12px 16px;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.btn_Hero_nav{
+    color: var(--text-icon-primary, #FFF);
+    text-align: center;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Circular Std;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: -0.176px;
+   text-decoration: none;
+}
+
+.text_2{
+    display: flex;
+    margin-left: 126px;
+    margin-top: 80px;
+}
+
+.text_P{
+    color: var(--base-white, #FFF);
+    text-align: center;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Space Mono;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px; 
+    margin-left: 208px;
+}
+
+.P_P{
+    color: var(--text-icon-secondary, #C8C7D8);
+    text-align: center;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Space Mono;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+
+}

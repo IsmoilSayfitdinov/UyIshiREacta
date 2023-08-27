@@ -1,0 +1,198 @@
+.fundent_text{
+    margin-left: 106px;
+    margin-top: 80px;
+    height: 192px;
+     h1{
+        color: var(--text-icon-primary, #FFF);
+        text-align: center;
+        font-feature-settings: 'clig' off, 'liga' off;
+        font-family: Circular Std;
+        font-size: 60px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 72px;
+        letter-spacing: -1.32px;
+
+     }
+}
+
+.fun_block{
+    display: grid;
+    grid-template-columns: 400px 400px 400px;
+    gap:30px 24px ;
+    margin-left: 108px;
+}
+
+.bloks_fun{
+    border-radius: 16px;
+    background: var(--background-secondary, #393953);
+    width: 392px;
+    height: 560px;
+    padding-left: 24px;
+    padding-top: 24px;
+}
+
+.Block_funs_p1{
+    color: var(--text-icon-tertiary, #A59EBA);
+    font-family: Space Mono;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    padding-bottom: 8px;
+}
+
+.Block_funs_p2{
+    color: var(--text-icon-tertiary, #A59EBA);
+    font-family: Space Mono;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+   
+    
+}
+
+.Block_funs_p3{
+    color: var(--text-icon-primary, #FFF);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Circular Std;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 450;
+    line-height: 24px;
+    letter-spacing: -0.176px;
+    padding-right: 24px;
+    padding-top: 8px;
+}
+
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+    margin-left: 108px;
+    margin-bottom: 108px;
+  }
+  
+  /* Hide default HTML checkbox */
+  .switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  /* The slider */
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  input:checked + .slider {
+    background-color: #2196F3;
+  }
+  
+  input:focus + .slider {
+    box-shadow: 0 0 1px #2196F3;
+  }
+  
+  input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+  }
+  
+  /* Rounded sliders */
+  .slider.round {
+    border-radius: 34px;
+  }
+  
+  .slider.round:before {
+    border-radius: 50%;
+  }
+
+.Block_funs_h3{
+    padding-bottom: 8px;
+    color: var(--text-icon-primary, #FFF);
+    font-family: Circular Std;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: -0.456px;
+
+}
+
+.end{
+    border-radius: 16px;
+    background: var(--gradient-brand, linear-gradient(322deg, #6966FF 0%, rgba(105, 102, 255, 0.36) 100%));
+    box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.10);
+    width: 1224px;
+    height: 248px;
+
+       
+.text{
+    p{
+        color: var(--text-icon-primary, #FFF);
+        text-align: center;
+        font-feature-settings: 'clig' off, 'liga' off;
+        font-family: Circular Std;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 450;
+        line-height: 32px;
+        letter-spacing: -0.34px;
+
+    }
+    h3{
+        color: var(--text-icon-primary, #FFF);
+        text-align: center;
+        font-feature-settings: 'clig' off, 'liga' off;
+        font-family: Circular Std;
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 48px;
+        letter-spacing: -0.88px;
+
+    }
+    button{
+        border-radius: 7.29px;
+        background: var(--base-white, #FFF);
+        width: 169px;
+        height: 48px;
+        border: none;
+        outline: none;
+        color: var(--accent-brand, #6966FF);
+        text-align: center;
+        font-feature-settings: 'clig' off, 'liga' off;
+        font-family: Circular Std;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 24px;
+        letter-spacing: -0.176px;
+        margin-left: 527px;
+        margin-top: 40px;
+    }
+}
+}

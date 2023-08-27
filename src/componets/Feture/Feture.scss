@@ -1,0 +1,107 @@
+.Text_feture{
+    margin-left: 420px;
+     h2{
+        color: var(--text-icon-primary, #FFF);
+        text-align: center;
+        font-feature-settings: 'clig' off, 'liga' off;
+        font-family: Circular Std;
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 48px; 
+        letter-spacing: -0.88px;
+        margin-bottom: 16px;
+        margin-left: -350px;
+     }
+     .Feture_P1{
+        color: var(--text-icon-secondary, #C8C7D8);
+        text-align: center;
+        font-feature-settings: 'clig' off, 'liga' off;
+        font-family: Circular Std;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: -0.252px;
+        width: 600px;
+     }
+     .Feture_P2{
+        color: var(--accent-brand, #6966FF);
+        text-align: center;
+        font-feature-settings: 'clig' off, 'liga' off;
+        font-family: Circular Std;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: -0.252px;
+        margin-top: 24px;
+        cursor: pointer;
+        margin-left: -350px;
+ }
+}
+
+.bloks_theer{
+    display: flex;
+    gap: 0 24px;
+    margin-left: 124px;
+    margin-top: 80px;
+}
+
+.bloks{
+    width: 392px;
+    height: 560px;
+    flex-direction: column;
+    align-items: flex-start;
+    border-radius: 16px;
+    background: var(--background-secondary, #393953);
+    margin-bottom: 80px;
+    padding-top: 24px;
+    padding-left: 24px;
+}
+
+.block_p1{
+    color: var(--text-icon-tertiary, #A59EBA);
+    font-family: Space Mono;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    padding-bottom: 8px;
+}
+
+
+.block_h3{
+    color: var(--text-icon-primary, #FFF);
+    font-family: Circular Std;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: -0.456px;
+    padding-bottom: 8px;
+    padding-right: 24px;
+}
+
+.block_p2{
+    color: var(--text-icon-tertiary, #A59EBA);
+    font-family: Space Mono;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+
+}
+
+.block_p3{
+    color: var(--text-icon-primary, #FFF);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Circular Std;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 450;
+    line-height: 24px; 
+    letter-spacing: -0.176px;
+    margin-top: 16px;
+    padding-right: 24px;
+}
